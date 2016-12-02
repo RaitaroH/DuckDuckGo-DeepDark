@@ -7,13 +7,17 @@ You can install from here https://greasyfork.org/en/scripts/25336-duckduckgo-dee
 
 # Screenshots
 Main page
+
 ![alt tag](https://i.imgur.com/8uvuxyp.png)
 
 Search
+
 ![alt tag](https://i.imgur.com/K36Quq8.png)
 
 Timer
+
 ![alt tag](https://i.imgur.com/0B09jac.png)
 
 Weather
+
 ![alt tag](https://i.imgur.com/7dzMsdw.png)
