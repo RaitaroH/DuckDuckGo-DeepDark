@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          DDG-DeepDark
-// @namespace     http://userstyles.org
+// @namespace     https://github.com/
 // @author        RaitaroH
 // @homepage      https://github.com/RaitaroH/DuckDuckGo-DeepDark
 // @include       http://duckduckgo.com/*
