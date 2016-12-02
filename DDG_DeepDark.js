@@ -21,7 +21,7 @@
         ".search-filter--region .search-filter__icon, .search-filter--region .dark-header .search-filter__icon, .dark-header .nav-menu__item__icon--region, .dark-bg .search-filter--region .search-filter__icon, .search-filter--region .dark-bg .search-filter__icon, .dark-bg .nav-menu__item__icon--region {",
 	"	background-image: url(/assets/icon_region_dark.svg) !important;",
 	"}",	
-	"a:hover,.result__url__domain,.corner_btn.reset:hover,.zci--timer .corner_btn.add_minute,.result__url:hover,.no-touch .header-wrap .zcm__link.is-active:hover,.no-touch .site-wrapper .zcm__link:hover, .zcm__link:hover, .zcm__link:visited,.logo_homepage__tt,.a:link:hover,.highlight .result__a:hover,a.result__menu:hover{",
+	"a:hover,.result__url__domain,.module__title__link,.corner_btn.reset:hover,.zci--timer .corner_btn.add_minute,.result__url:hover,.no-touch .header-wrap .zcm__link.is-active:hover,.no-touch .site-wrapper .zcm__link:hover, .zcm__link:hover, .zcm__link:visited,.logo_homepage__tt,.a:link:hover,.highlight .result__a:hover,a.result__menu:hover{",
 	"	color: rgba(0,173,238,.9)  !important;",
 	"}",
         ".result__url__domain:hover,.module__title,.result__a:hover{",
