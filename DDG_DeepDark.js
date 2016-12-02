@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          DDG-DeepDark
+// @name          DuckDuckGo DeepDark
 // @namespace     https://github.com/
 // @author        RaitaroH
 // @homepage      https://github.com/RaitaroH/DuckDuckGo-DeepDark
