@@ -8,7 +8,7 @@
 // @include       http://*.duckduckgo.com/*
 // @include       https://*.duckduckgo.com/*
 // @run-at        document-start
-// @version       0.20160108091758
+// @version       1.1
 // ==/UserScript==
 (function() {var css = [
 
