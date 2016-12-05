@@ -5,6 +5,8 @@ This dark theme is based on the default dark theme for DuckDuckGo found here htt
 
 You can install from here https://greasyfork.org/en/scripts/25336-duckduckgo-deepdark
 
+Themes as Stylish styles here https://userstyles.org/users/377182
+
 # Screenshots
 Main page
 
