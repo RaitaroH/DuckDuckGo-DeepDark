@@ -3,12 +3,14 @@
 // @namespace     https://github.com/
 // @author        RaitaroH
 // @homepage      https://github.com/RaitaroH/DuckDuckGo-DeepDark
+// @icon          https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/DDGDD-icon.png
 // @include       http://duckduckgo.com/*
 // @include       https://duckduckgo.com/*
 // @include       http://*.duckduckgo.com/*
 // @include       https://*.duckduckgo.com/*
 // @run-at        document-start
-// @version       1.1
+// @version       1.2
+// Changelog 1.2 added icon
 // ==/UserScript==
 (function() {var css = [
 
