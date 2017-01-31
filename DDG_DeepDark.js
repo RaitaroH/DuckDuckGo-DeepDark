@@ -9,26 +9,49 @@
 // @include       http://*.duckduckgo.com/*
 // @include       https://*.duckduckgo.com/*
 // @run-at        document-start
-// @version       1.2
+// @version       1.3
+// @grant           GM_getValue
+// @grant           GM_setValue
+// Changelog 1.3 added floating menu, added color picker on userstyles version
 // Changelog 1.2 added icon
 // ==/UserScript==
 (function() {var css = [
-
+	"/*1.3*/",
+	
 	".svg .header__logo,.svg.dark-header .header__logo {",
 	"	background-image: url(https://i.imgur.com/u6PSvJ3.png) !important;",
 	"}",
-        ".svg .logo_homepage {",
+  ".svg .logo_homepage {",
 	"	background-image: url(https://i.imgur.com/9Gj7Fe1.png) !important;",
 	"}",
-        ".search-filter--region .search-filter__icon, .search-filter--region .dark-header .search-filter__icon, .dark-header .nav-menu__item__icon--region, .dark-bg .search-filter--region .search-filter__icon, .search-filter--region .dark-bg .search-filter__icon, .dark-bg .nav-menu__item__icon--region {",
+	
+	"/*Added floating search bar*/",
+	".set-header--fixed .header-wrap,.header-wrap {",
+	"position: fixed !important;",
+	"width: 100% !important;",
+	"top: 0 !important;",
+	"left: 0 !important;",
+	"right: 0 !important;",
+	"z-index: 100 !important;",
+	"padding-bottom: 0 !important;",
+	"}",
+	".zci-wrap{",
+	"margin-top: 100px !important;",
+	"}",
+	".header-wrap, .header-wrap--home{",
+	"border-bottom: 1px solid #242424 !important;",
+	"}",	
+	
+  ".search-filter--region .search-filter__icon, .search-filter--region .dark-header .search-filter__icon, .dark-header .nav-menu__item__icon--region, .dark-bg .search-filter--region .search-filter__icon, .search-filter--region .dark-bg .search-filter__icon, .dark-bg .nav-menu__item__icon--region {",
 	"	background-image: url(/assets/icon_region_dark.svg) !important;",
 	"}",	
-	"a:hover,.result__url__domain,.module__title__link,.corner_btn.reset:hover,.zci--timer .corner_btn.add_minute,.result__url:hover,.no-touch .header-wrap .zcm__link.is-active:hover,.no-touch .site-wrapper .zcm__link:hover, .zcm__link:hover, .zcm__link:visited,.logo_homepage__tt,.a:link:hover,.highlight .result__a:hover,a.result__menu:hover{",
-	"	color: rgba(0,173,238,.9)  !important;",
+	".set-main .frm__section-label,a:hover,.result__url__domain,.module__title__link,.corner_btn.reset:hover,.zci--timer .corner_btn.add_minute,.result__url:hover,.no-touch .header-wrap .zcm__link.is-active:hover,.no-touch .site-wrapper .zcm__link:hover, .zcm__link:hover, .zcm__link:visited,.logo_homepage__tt,.a:link:hover,.highlight .result__a:hover,a.result__menu:hover{",
+	"	color: #00adee  !important;",
+	" opacity: 0.9 !important;",
 	"}",
-        ".result__url__domain:hover,.module__title,.result__a:hover{",
+  ".result__url__domain:hover,.module__title,.result__a:hover{",
 	"color: #00adee !important;",
-	"text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;",
+	"/*text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;*/",
 	"}",
 	".zcm__link.is-active,.zci--timer .play_pause .first_half_fill, .zci--timer .play_pause .rotated_fill{",
 	"border-color: #00adee !important;",
@@ -43,7 +66,7 @@
 	".sitelinks_td:hover,.result:hover,.result.highlight,.logo_homepage__tt,.about-info-box__toggle__chevron:hover {",
 	"	background-color: #222 !important;",
 	"}",
-        ".module__text,.prettyprint .pln,.prettyprint .pun{",
+  ".module__text,.prettyprint .pln,.prettyprint .pun{",
 	"color: #ccc !important;",
 	"}",
 	".zci--timer #add_timer_container,.zci--timer .corner_btn.add_minute{",
