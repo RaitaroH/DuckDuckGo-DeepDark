@@ -9,14 +9,27 @@
 // @include       http://*.duckduckgo.com/*
 // @include       https://*.duckduckgo.com/*
 // @run-at        document-start
-// @version       1.3
+// @version       1.5
 // @grant           GM_getValue
 // @grant           GM_setValue
+// Changelog 1.5 fixed white edges for the search options
+// Changelog 1.4 added text highlight,readded text-shadow
 // Changelog 1.3 added floating menu, added color picker on userstyles version
 // Changelog 1.2 added icon
 // ==/UserScript==
 (function() {var css = [
-	"/*1.3*/",
+	"/*1.5*/",
+	
+	"	/*Changed text highlight*/",
+	"		  ::selection {",
+	"			background: #00adee !important;",
+	"			color: #fff !important;",
+	"	}",
+	"		  ::-moz-selection {",
+	"			background: #00adee !important;",
+	"			color: #fff !important;",
+	"	}",
+	
 	
 	".svg .header__logo,.svg.dark-header .header__logo {",
 	"	background-image: url(https://i.imgur.com/u6PSvJ3.png) !important;",
@@ -41,6 +54,10 @@
 	".header-wrap, .header-wrap--home{",
 	"border-bottom: 1px solid #242424 !important;",
 	"}",	
+  ".search-filters-wrap::after,.search-filters-wrap::before {",
+	"	background-image: none !important;",
+	"}",	
+	
 	
   ".search-filter--region .search-filter__icon, .search-filter--region .dark-header .search-filter__icon, .dark-header .nav-menu__item__icon--region, .dark-bg .search-filter--region .search-filter__icon, .search-filter--region .dark-bg .search-filter__icon, .dark-bg .nav-menu__item__icon--region {",
 	"	background-image: url(/assets/icon_region_dark.svg) !important;",
@@ -51,7 +68,7 @@
 	"}",
   ".result__url__domain:hover,.module__title,.result__a:hover{",
 	"color: #00adee !important;",
-	"/*text-shadow: 0px 0px 3px rgba(0,173,238,.5) !important;*/",
+	"text-shadow: 0px 0px 1px #00adee !important;",
 	"}",
 	".zcm__link.is-active,.zci--timer .play_pause .first_half_fill, .zci--timer .play_pause .rotated_fill{",
 	"border-color: #00adee !important;",
