@@ -10,13 +10,13 @@
   /*Main color variables*/
   :root
   {
-	/*User colors*/
-	--main-color: /*[[mainColor]]*/;
-	--main-background: /*[[mainBackground]]*/;
-	--second-background: /*[[secondBackground]]*/;
-	--hover-background: /*[[hoverBackground]]*/;
-	--main-text: /*[[mainText]]*/;
-	--dimer-text: /*[[dimerText]]*/;
+    /*User colors*/
+    --main-color: /*[[mainColor]]*/;
+    --main-background: /*[[mainBackground]]*/;
+    --second-background: /*[[secondBackground]]*/;
+    --hover-background: /*[[hoverBackground]]*/;
+    --main-text: /*[[mainText]]*/;
+    --dimer-text: /*[[dimerText]]*/;
     
     /*DeepDark colors*/
     /*
@@ -97,7 +97,7 @@
     --main-text: #FFFFFF;
     --dimer-text: #D5DADA;
     */
-}
+    }
 
   /*Changed text highlight*/
   ::selection
@@ -114,12 +114,12 @@
   /*Outline for links*/
   a
   {
-		outline-color: var(--main-color) !important;
+        outline-color: var(--main-color) !important;
   }
-	a:hover
-	{
-		text-decoration: none !important;
-	}
+  a:hover
+  {
+    text-decoration: none !important;
+  }
 
   .svg .header__logo,.svg.dark-header .header__logo
   {
@@ -515,10 +515,10 @@
   {
     background-color: var(--second-background) !important;
   }
-	.search__button:hover,.search--header.has-text.search--focus .search__button:hover,.search--header.has-text.search--hover .search__button:hover,.search--home.has-text .search__button:hover
-	{
-		background-color: var(--hover-background) !important;
-	}
+  .search__button:hover,.search--header.has-text.search--focus .search__button:hover,.search--header.has-text.search--hover .search__button:hover,.search--home.has-text .search__button:hover
+  {
+    background-color: var(--hover-background) !important;
+  }
 
   .search__input--adv
   {
@@ -795,62 +795,63 @@
 	
   
   /*Some stuff in searches and such*/
-	.about-info-box__info-label
-	{
-		color: var(--main-text) !important;
-	}
-	.about-info-box__info-value
-	{
-		color: var(--dimer-text) !important;
-	}
-	.nav-menu__heading span
-	{
-		color: var(--main-text) !important;
-	}
-	.nav-menu__list li:hover > a
-	{
-		color: var(--main-color) !important;
-	}
-	.result__body:hover .result__a
-	{
-		color: var(--main-color) !important;
-	}
-	.metabar__dropdowns-wrap::after 
-	{
-		background-image: none !important;
+  .about-info-box__info-label
+  {
+    color: var(--main-text) !important;
   }
-	.is-expanded .metabar__grid-btn, .is-expanded .metabar__grid-btn:hover
-	{
-		border: none !important;
-	}
-	.modal--dropdown .modal__list__link:hover
-	{
-		color: var(--main-color) !important;
-	}
-	.tile.tile--c--w.tile--vid.has-detail.opt--t-xxs:hover, .tile.tile--c.js-tile--Top:hover, .has-tiles .tile:hover
-	{
-		border: none !important;
+  .about-info-box__info-value
+  {
+    color: var(--dimer-text) !important;
   }
-	.tile.tile--c--w.tile--vid.has-detail.opt--t-xxs:hover .tile__title a, .tile.tile--c.js-tile--Top:hover .tile__title a, .has-tiles .tile:hover .tile__title a
-	{
-		color: var(--main-color) !important;
-	}
-	
+  .nav-menu__heading span
+  {
+    color: var(--main-text) !important;
+  }
+  .nav-menu__list li:hover > a
+  {
+    color: var(--main-color) !important;
+  }
+  .result__body:hover .result__a
+  {
+    color: var(--main-color) !important;
+  }
+  .metabar__dropdowns-wrap::after 
+  {
+    background-image: none !important;
+  }
+  .is-expanded .metabar__grid-btn, .is-expanded .metabar__grid-btn:hover
+  {
+    border: none !important;
+  }
+  .modal--dropdown .modal__list__link:hover
+  {
+    color: var(--main-color) !important;
+  }
+  .tile.tile--c--w.tile--vid.has-detail.opt--t-xxs:hover, .tile.tile--c.js-tile--Top:hover, .has-tiles .tile:hover
+  {
+    border: none !important;
+  }
+  .tile.tile--c--w.tile--vid.has-detail.opt--t-xxs:hover .tile__title a, .tile.tile--c.js-tile--Top:hover .tile__title a, .has-tiles .tile:hover .tile__title a
+  {
+    color: var(--main-color) !important;
+  }
+  
   
   /*Currency stuff*/
-	.zci--currency .frm__select, .zci--currency .frm__select::after, .zci--currency .frm__input
-	{
-		background-color: var(--main-background) !important;
-		border-color: var(--hover-background) !important;
-	}
-	.zci--currency .shadow
-	{
-		box-shadow: none !important;
-	}	
-	.zci--currency .frm__select select, .frm__select
-	{
-		color: var(--main-text) !important;
-	}
+  .zci--currency .frm__select, .zci--currency .frm__select::after, .zci--currency .frm__input
+  {
+    background-color: var(--main-background) !important;
+    border-color: var(--hover-background) !important;
+  }
+  .zci--currency .shadow
+  {
+    box-shadow: none !important;
+  }  
+  .zci--currency .frm__select select, .frm__select
+  {
+    color: var(--main-text) !important;
+  }
+  
   
   
   /*About page*/
