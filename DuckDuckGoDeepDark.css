@@ -588,7 +588,7 @@
     color: var(--dimer-text) !important;
   }
 
-  ,.detail__body a:hover,.zci__body a:active,.zci__body a:active,.zcm__link--sub.is-here,.zcm__item.is-here .zcm__link--sub,.zci__body .chomp--link:hover,.zci__more-at:hover,.c-info__link:hover,.c-icon__link:hover,.zcm__link--sub.is-highlighted,.chomp--link:hover .chomp--link__mr,.chomp--link:hover .chomp--link__ls
+  .detail__body a:hover,.zci__body a:active,.zci__body a:active,.zcm__link--sub.is-here,.zcm__item.is-here .zcm__link--sub,.zci__body .chomp--link:hover,.zci__more-at:hover,.c-info__link:hover,.c-icon__link:hover,.zcm__link--sub.is-highlighted,.chomp--link:hover .chomp--link__mr,.chomp--link:hover .chomp--link__ls
   {
     color: var(--dimer-text) !important;
   }
