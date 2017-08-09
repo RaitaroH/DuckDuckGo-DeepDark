@@ -5,7 +5,7 @@
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/DuckDuckGo-DeepDark*/
 
-/*1.6*/
+/*1.6.1*/
 
   /*Main color variables*/
   :root
@@ -815,7 +815,7 @@
   {
     color: var(--main-color) !important;
   }
-  .metabar__dropdowns-wrap::after 
+  .metabar__dropdowns-wrap::after, .metabar__dropdowns-wrap::before
   {
     background-image: none !important;
   }
