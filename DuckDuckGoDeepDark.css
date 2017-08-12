@@ -947,7 +947,7 @@
   {
     background: var(--second-background) !important;
   }
-  .prettyprint .com
+  .prettyprint .com, .module__title__sub
   {
     color: var(--dimer-text) !important;
   }
