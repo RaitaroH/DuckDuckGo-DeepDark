@@ -5,7 +5,7 @@
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/DuckDuckGo-DeepDark*/
 
-/*1.6.3*/
+/*1.6.4*/
 
 	/*Main color variables*/
 	:root
@@ -170,7 +170,6 @@
 	.result__url__domain:hover,.module__title,.result__a:hover
 	{
 		color: var(--main-color) !important;
-		text-shadow: 0px 0px 1px var(--main-color) !important;
 	}
 
 	.zcm__link.is-active,.zci--timer .play_pause .first_half_fill, .zci--timer .play_pause .rotated_fill
