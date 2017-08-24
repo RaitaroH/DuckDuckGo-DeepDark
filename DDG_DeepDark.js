@@ -9,9 +9,10 @@
 // @include       http://*.duckduckgo.com/*
 // @include       https://*.duckduckgo.com/*
 // @run-at        document-start
-// @version       1.6.4
+// @version       1.6.5
 // @grant           GM_getValue
 // @grant           GM_setValue
+// Changelog 1.6.5 fix for video results, removed box shadow for video results
 // Changelog 1.6.4 removed blue text shadow
 // Changelog 1.6.3 themed calculator and 2048 game
 // Changelog 1.6.2 code background and text adjusted
@@ -26,7 +27,7 @@
 	"@namespace url(http://www.w3.org/1999/xhtml);",
 	"/*Theme made by RaitaroH @https://github.com/RaitaroH/DuckDuckGo-DeepDark*/",
 	"",
-  "/*1.6.4*/",
+	"/*1.6.5*/",
 	"",
 	"	/*Main color variables*/",
 	"	:root",
@@ -850,10 +851,16 @@
 	"	.tile.tile--c--w.tile--vid.has-detail.opt--t-xxs:hover, .tile.tile--c.js-tile--Top:hover, .has-tiles .tile:hover",
 	"	{",
 	"		border: none !important;",
+	"		box-shadow: none !important;",
 	"	}",
 	"	.tile.tile--c--w.tile--vid.has-detail.opt--t-xxs:hover .tile__title a, .tile.tile--c.js-tile--Top:hover .tile__title a, .has-tiles .tile:hover .tile__title a",
 	"	{",
 	"		color: var(--main-color) !important;",
+	"	}",
+	"	/*Video results*/",
+	"	.metabar__primary-text--linked",
+	"	{",
+	"		color: var(--dimer-text) !important;",
 	"	}",
 	"	",
 	"	",
