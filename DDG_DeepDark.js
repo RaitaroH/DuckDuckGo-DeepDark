@@ -9,9 +9,15 @@
 // @include       http://*.duckduckgo.com/*
 // @include       https://*.duckduckgo.com/*
 // @run-at        document-start
-// @version       1.6.5
-// @grant           GM_getValue
-// @grant           GM_setValue
+// @version       1.6.6
+// @grant         GM_getValue
+// @grant         GM_setValue
+
+// !!!
+// IMPORTANT NOTE!! THIS THEME HAS MOVED HERE: https://userstyles.org/styles/135954/duckduckgo-deepdark
+// !!!
+
+// Changelog 1.6.6 removed @namespace
 // Changelog 1.6.5 fix for video results, removed box shadow for video results
 // Changelog 1.6.4 removed blue text shadow
 // Changelog 1.6.3 themed calculator and 2048 game
@@ -24,10 +30,9 @@
 // Changelog 1.2 added icon
 // ==/UserScript==
 (function() {var css = [
-	"@namespace url(http://www.w3.org/1999/xhtml);",
 	"/*Theme made by RaitaroH @https://github.com/RaitaroH/DuckDuckGo-DeepDark*/",
 	"",
-	"/*1.6.5*/",
+	"/*1.6.6*/",
 	"",
 	"	/*Main color variables*/",
 	"	:root",
