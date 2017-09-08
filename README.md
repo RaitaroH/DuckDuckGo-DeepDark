@@ -39,3 +39,4 @@ Colors Showcase (the colors are available in the code; different colors can be u
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/Mint-Y-DarkColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/VertexDarkColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/YouTubeColors.png)
+![alt tag](https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/9animeColors.png)
