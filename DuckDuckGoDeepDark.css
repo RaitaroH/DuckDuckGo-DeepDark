@@ -1,9 +1,8 @@
-@-moz-document domain(duckduckgo.com)
-{
+@-moz-document domain(duckduckgo.com) {
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/DuckDuckGo-DeepDark*/
 
-/*1.6.6*/
+/*1.6.7*/
 
 	/*Main color variables*/
 	:root
@@ -95,7 +94,17 @@
 		--main-text: #FFFFFF;
 		--dimer-text: #D5DADA;
 		*/
-		}
+		
+		/*9anime colors*/
+		/*
+		--main-color: #723f8c;
+		--main-background: #0B0A0D;
+		--second-background: #17151C;
+		--hover-background: #1E1C25;
+		--main-text: #B4B4B4;
+		--dimer-text: #747474;
+		*/
+	}
 
 	/*Changed text highlight*/
 	::selection
@@ -112,7 +121,7 @@
 	/*Outline for links*/
 	a
 	{
-				outline-color: var(--main-color) !important;
+		outline-color: var(--main-color) !important;
 	}
 	a:hover
 	{
@@ -1036,5 +1045,16 @@
 		box-shadow: none !important;
 		-webkit-box-shadow: none !important;
 		-moz-box-shadow: none !important;
+	}
+	
+	/*Color picker*/
+	#color_picker_container input
+	{
+		border-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+	}
+	#color_picker_container #palette_select
+	{
+		color: var(--main-text) !important;
 	}
 }
