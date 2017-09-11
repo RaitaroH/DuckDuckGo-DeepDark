@@ -8,8 +8,6 @@ Also, credit where credit is due for the color palettes down bellow. ([@KDE](htt
 
 Theme as a userstyle [here](https://userstyles.org/users/377182).
 
-You can install the .js version from [here](https://greasyfork.org/en/scripts/25336-duckduckgo-deepdark).
-
 ### **You can also install all my themes at once from [here](https://github.com/RaitaroH/Import-All-Deepdark).**
 
 # Screenshots
