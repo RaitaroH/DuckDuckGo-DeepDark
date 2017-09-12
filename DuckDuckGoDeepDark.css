@@ -2,7 +2,7 @@
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/DuckDuckGo-DeepDark*/
 
-/*1.6.7*/
+/*1.6.8*/
 
 	/*Main color variables*/
 	:root
@@ -664,6 +664,10 @@
 	{
 		background-color: var(--hover-background) !important;
 	}
+	.tile-nav.can-scroll:hover
+	{
+		color: var(--main-color) !important;
+	}
 
 	.chomp--link__icn,.count__i:after
 	{
@@ -1056,5 +1060,33 @@
 	#color_picker_container #palette_select
 	{
 		color: var(--main-text) !important;
+	}
+	
+	/*News*/
+	.module--news__title, .module--news__body__title
+	{
+		color: var(--main-text) !important;
+	}
+	.module--news__title:hover, .module--news__body__title:hover, .module--news__item:hover .module--news__body__title
+	{
+		color: var(--main-color) !important;
+	}
+	.feedback-prompt, .module--news__footer
+	{
+		color: var(--dimer-text) !important;
+	}
+	.module--news__item
+	{
+		border-color: var(--hover-background) !important;
+	}
+	.module--news__left, .module--news__right
+	{
+		background-color: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+	}
+	.module--news__left:hover, .module--news__right:hover
+	{
+		color: var(--main-color) !important;
 	}
 }
