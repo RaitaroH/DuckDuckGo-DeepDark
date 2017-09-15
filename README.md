@@ -37,6 +37,7 @@ Colors Showcase (the colors are available in the code; different colors can be u
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/DeepDarkColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/DiscordColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/FirefoxDarkColors.png)
+![alt tag](https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/Firefox57DarkColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/Mint-Y-DarkColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/VertexDarkColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/YouTubeColors.png)
