@@ -2,7 +2,7 @@
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/DuckDuckGo-DeepDark*/
 
-/*1.6.9*/
+/*1.7.0*/
 
 	/*Main color variables*/
 	:root
@@ -1098,5 +1098,35 @@
 	.module--news__left:hover, .module--news__right:hover
 	{
 		color: var(--main-color) !important;
+	}
+}
+
+
+@-moz-document url-prefix("https://duckduckgo.com/html") {
+	/*Issues in html mode*/
+	.search__input, .search__input--adv
+	{
+		color: var(--dimer-text) !important;
+	}
+	.header.header--html
+	{
+		border-color: var(--hover-background) !important;
+	}
+	.btn--alt:hover
+	{
+		color: var(--main-color) !important;
+	}
+	.logo_homepage
+	{
+		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/BigLogo.png) !important;
+	}
+	.header__logo-wrap
+	{
+		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/logo.png) !important;
+	}
+	.search, .search--adv
+	{
+		background-color: var(--second-background) !important;
+		border-color: var(--second-background) !important;
 	}
 }
