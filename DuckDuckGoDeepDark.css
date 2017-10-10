@@ -8,12 +8,12 @@
 	:root
 	{
 		/*User colors*/
-		--main-color: /*[[mainColor]]*/;
-		--main-background: /*[[mainBackground]]*/;
-		--second-background: /*[[secondBackground]]*/;
-		--hover-background: /*[[hoverBackground]]*/;
-		--main-text: /*[[mainText]]*/;
-		--dimer-text: /*[[dimerText]]*/;
+		--main-color: #00ADEE;
+		--main-background: #111111;
+		--second-background: #181818;
+		--hover-background: #232323;
+		--main-text: #EFF0F1;
+		--dimer-text: #CCCCCC;
 		
 		/*DeepDark colors*/
 		/*
@@ -1129,4 +1129,8 @@
 		background-color: var(--second-background) !important;
 		border-color: var(--second-background) !important;
 	}
+	
+	.zci-wrapper { background-color: black; border: none !important; }
+	.zci { background-color: black !important; color: #b2b2b2; }
+	
 }
