@@ -2,7 +2,7 @@
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/DuckDuckGo-DeepDark*/
 
-/*1.7.0*/
+/*1.7.1*/
 
 	/*Main color variables*/
 	:root
@@ -1128,5 +1128,14 @@
 	{
 		background-color: var(--second-background) !important;
 		border-color: var(--second-background) !important;
+	}
+	.zci-wrapper
+	{
+		background-color: var(--second-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	.zci
+	{
+		color: var(--dimer-text) !important;
 	}
 }
