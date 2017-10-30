@@ -1,7 +1,7 @@
 @-moz-document domain(duckduckgo.com) {
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/DuckDuckGo-DeepDark*/
-	
+
 /*GNU General Public License v3.0*/
 
 /*1.7.4*/
@@ -16,17 +16,17 @@
 		--hover-background: /*[[hoverBackground]]*/;
 		--main-text: /*[[mainText]]*/;
 		--dimer-text: /*[[dimerText]]*/;
-		
+
 		/*DeepDark colors*/
 		/*
 		--main-color: #00adee;
 		--main-background: #111111;
-		--second-background: #181818; 
+		--second-background: #181818;
 		--hover-background: #232323;
 		--main-text: #eff0f1;
 		--dimer-text: #CCCCCC;
 		*/
-		
+
 		/*KDE colors*/
 		/*
 		--main-color: #3DAEE9;
@@ -36,7 +36,7 @@
 		--main-text: #eff0f1;
 		--dimer-text: #bdc3c7;
 		*/
-				
+
 		/*Vertex Dark colors*/
 		/*
 		--main-color: #4080fb;
@@ -46,7 +46,7 @@
 		--main-text: #F3F3F5;
 		--dimer-text: #AEAFB0;
 		*/
-		
+
 		/*Arc Dark colors*/
 		/*
 		--main-color: #5294E2;
@@ -56,7 +56,7 @@
 		--main-text: #C1C8D1;
 		--dimer-text: #B3BAC5;
 		*/
-		
+
 		/*Firefox Dark colors*/
 		/*
 		--main-color: #5675B9;
@@ -66,7 +66,7 @@
 		--main-text: #E3EEF9;
 		--dimer-text: #989798;
 		*/
-		
+
 		/*Firefox57 Dark colors*/
 		/*
 		--main-color: #4080FB;
@@ -76,7 +76,7 @@
 		--main-text: #F9F9FA;
 		--dimer-text: #D0D0D0;
 		*/
-		
+
 		/*Discord colors*/
 		/*
 		--main-color: #7289DA;
@@ -86,7 +86,7 @@
 		--main-text: #FFFFFF;
 		--dimer-text: #ADA8AA;
 		*/
-		
+
 		/*YouTube dark colors*/
 		/*
 		--main-color: #E52117;
@@ -96,7 +96,7 @@
 		--main-text: #E1E1E1;
 		--dimer-text: #7F7F7F;
 		*/
-		
+
 		/*Mint-Y-Dark colors*/
 		/*
 		--main-color: #9AB87C;
@@ -106,7 +106,7 @@
 		--main-text: #FFFFFF;
 		--dimer-text: #D5DADA;
 		*/
-		
+
 		/*9anime colors*/
 		/*
 		--main-color: #723f8c;
@@ -116,7 +116,7 @@
 		--main-text: #B4B4B4;
 		--dimer-text: #747474;
 		*/
-		
+
 		/*Black and white*/
 		/*
 		--main-color: #ffffff;
@@ -126,7 +126,7 @@
 		--main-text: #b4b4b4;
 		--dimer-text: #828282;
 		*/
-		
+
 		/*Yellow (colors from petrocompletions)*/
 		/*
 		--main-color: #FFC700;
@@ -136,7 +136,7 @@
 		--main-text: #EFF0F1;
 		--dimer-text: #9F9999;
 		*/
-		
+
 		/*Yellow 2*/
 		/*
 		--main-color: #ffc700;
@@ -146,27 +146,27 @@
 		--main-text: #fffdf5;
 		--dimer-text: #fff8e1;
 		*/
-		
+
 		/*Ubuntu grey colors*/
 		/*
 		--main-color: #EF7847;
 		--main-background: #312D2A;
-		--second-background: #3D3C38; 
+		--second-background: #3D3C38;
 		--hover-background: #59564D;
 		--main-text: #F2F1EF;
 		--dimer-text: #E6E5E3;
 		*/
-		
+
 		/*Ubuntu purple colors*/
 		/*
 		--main-color: #EF7847;
 		--main-background: #2C071A;
-		--second-background: #430B28; 
+		--second-background: #430B28;
 		--hover-background: #520D30;
 		--main-text: #F2F1EF;
 		--dimer-text: #E6E5E3;
 		*/
-		
+
 		/*Orange*/
 		/*
 		--main-color: #ff6905;
@@ -176,7 +176,7 @@
 		--main-text: #fff9f5;
 		--dimer-text: #ffede1;
 		*/
-		
+
 		/*Jisho 夜明け colors https://userstyles.org/styles/115621/jisho*/
 		/*
 		--main-color: #EF7D6C;
@@ -199,7 +199,7 @@
 		background: var(--main-color) !important;
 		color: var(--main-text) !important;
 	}
-	
+
 	/*Outline for links*/
 	a
 	{
@@ -277,7 +277,7 @@
 	{
 		background-color: var(--hover-background) !important;
 	}
-	
+
 
 	.modal__header__title
 	{
@@ -891,8 +891,8 @@
 	{
 		color: var(--second-background) !important;
 	}
-	
-	
+
+
 	/*Some stuff in searches and such*/
 	.about-info-box__info-label
 	{
@@ -940,8 +940,8 @@
 	{
 		color: var(--dimer-text) !important;
 	}
-	
-	
+
+
 	/*Currency stuff*/
 	.zci--currency .frm__select, .zci--currency .frm__select::after, .zci--currency .frm__input
 	{
@@ -951,14 +951,14 @@
 	.zci--currency .shadow
 	{
 		box-shadow: none !important;
-	}	
+	}
 	.zci--currency .frm__select select, .frm__select
 	{
 		color: var(--main-text) !important;
 	}
-	
-	
-	
+
+
+
 	/*About page*/
 	.blk__title, .abt__title, .timeline__title, .ddh__title, .app__title, .abt__key__title, h4, .news-tile__title, .news-tile__source
 	{
@@ -967,7 +967,7 @@
 	.abt__key__sub, .abt__key p
 	{
 		color: var(--dimer-text) !important;
-	}	
+	}
 	.abt__key__link::before, .news-tile__link::before
 	{
 		background: var(--main-color) !important;
@@ -975,9 +975,9 @@
 	.map__title
 	{
 		background-color: var(--second-background) !important;
-	}	
-	
-	
+	}
+
+
 	/*Bangs*/
 	.bang__list-header__title, .bang__heading, .bang--about__title, .bang--about__snippet, .bang--about__text > a
 	{
@@ -986,11 +986,11 @@
 	.bang__list-header__snippet, .no-visited, .bang--about__content, .bang--about__text, .bang__list-header
 	{
 		color: var(--dimer-text) !important;
-	} 
+	}
 	.no-visited:hover, .bang--about__text > a:hover
 	{
 		color: var(--main-color) !important;
-	}	
+	}
 	.bang__result__bang-name, .blk--alt
 	{
 		background-color: var(--second-background) !important;
@@ -1003,13 +1003,13 @@
 	{
 		color: var(--main-text) !important;
 		background-color: var(--hover-background) !important;
-	}	
-	.blk--hero + .blk--arr::before 
+	}
+	.blk--hero + .blk--arr::before
 	{
 		border-top-color: #e37151 !important;
 	}
- 
-	
+
+
 	/*Settings*/
 	.set-main .frm__label, .frm__select, .frm__select, .frm__select select
 	{
@@ -1018,21 +1018,21 @@
 	.frm__desc.frm__desc--break-xs
 	{
 		color: var(--dimer-text) !important;
-	}	
+	}
 	.frm__select select, .frm__select
 	{
 		border-color: var(--hover-background) !important;
 		background-color: var(--second-background) !important;
-	}	
-	
-	
+	}
+
+
 	/*Privacy page*/
 	.blk__text
 	{
 		color: var(--dimer-text) !important;
-	}	
+	}
 
-	
+
 	/*App page*/
 	.app__key__title
 	{
@@ -1041,12 +1041,12 @@
 	.app__key p
 	{
 		color: var(--dimer-text) !important;
-	} 
+	}
 	.blk--arr::before, .blk--arr--white::before
 	{
 		border-top-color: var(--main-background) !important;
 	}
-	
+
 	/*Code response*/
 	.module__text pre
 	{
@@ -1060,8 +1060,8 @@
 	{
 		color: var(--main-color) !important;
 	}
-	
-	
+
+
 	/*The calculator*/
 	.zci--calculator .tile__calc .tile__display, .zci--calculator .tile__calc .tile__history, .zci--calculator .tile__calc .tile__ctrl--ops, .zci--calculator .tile__calc .tile__tab__sci .tile__ctrl__btn, .zci--calculator .tile__calc .tile__ctrl__toggle
 	{
@@ -1107,8 +1107,8 @@
 	{
 		box-shadow: inset -1px -1px 0px var(--hover-background), inset 1px 1px 0px var(--hover-background) !important;
 	}
-	
-	
+
+
 	/*2048 game*/
 	.zci--game2048 .game2048__area
 	{
@@ -1139,7 +1139,7 @@
 		-webkit-box-shadow: none !important;
 		-moz-box-shadow: none !important;
 	}
-	
+
 	/*Color picker*/
 	#color_picker_container input
 	{
@@ -1150,7 +1150,7 @@
 	{
 		color: var(--main-text) !important;
 	}
-	
+
 	/*News*/
 	.module--news__title, .module--news__body__title
 	{
