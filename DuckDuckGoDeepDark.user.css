@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.7.6
+@version 1.7.7
 @updateURL https://rawgit.com/RaitaroH/DuckDuckGo-DeepDark/master/DuckDuckGoDeepDark.user.css
 @description DuckDuckGo dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.7.6*/
+/*1.7.7*/
 
 	/*Main color variables*/
 	:root
@@ -1075,21 +1075,29 @@
 	}
 
 
-	/*Currency stuff*/
-	.zci--currency .frm__select, .zci--currency .frm__select::after, .zci--currency .frm__input
+	/*Convertions stuff*/
+	.zci--currency .frm__select, .zci--currency .frm__select::after, .zci--currency .frm__input, .zci--conversions .frm__select select, .zci--conversions .frm__select, .zci--conversions .frm__input.frm__input
 	{
 		background-color: var(--main-background) !important;
 		border-color: var(--hover-background) !important;
 	}
-	.zci--currency .shadow
+	.zci--currency .shadow, .zci--conversions .shadow
 	{
-		box-shadow: none !important;
+		box-shadow: 0 1px 0.5px rgba(0,0,0,0.13) !important;
 	}
 	.zci--currency .frm__select select, .frm__select
 	{
 		color: var(--main-text) !important;
+		background-color: var(--main-background) !important;
 	}
-
+	.zci--conversions .frm__select::after
+	{
+		background: transparent !important;
+	}
+	.zci--currency .frm__select:hover::after, .zci--conversions .frm__select:hover::after
+	{
+		background-color: var(--hover-background) !important;
+	}
 
 
 	/*About page*/
