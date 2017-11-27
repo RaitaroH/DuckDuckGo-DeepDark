@@ -149,6 +149,8 @@
 		--hover-background: /*[[hoverBackground]]*/;
 		--main-text: /*[[mainText]]*/;
 		--dimer-text: /*[[dimerText]]*/;
+		
+		--shadow: 0 1px 0.5px rgba(0,0,0,0.13);
 
 		/*DeepDark colors*/
 		/*
@@ -1083,7 +1085,7 @@
 	}
 	.zci--currency .shadow, .zci--conversions .shadow
 	{
-		box-shadow: 0 1px 0.5px rgba(0,0,0,0.13) !important;
+		box-shadow: var(--shadow) !important;
 	}
 	.zci--currency .frm__select select, .frm__select
 	{
