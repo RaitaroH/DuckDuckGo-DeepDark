@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.7.7
+@version 1.7.8
 @updateURL https://rawgit.com/RaitaroH/DuckDuckGo-DeepDark/master/DuckDuckGoDeepDark.user.css
 @description DuckDuckGo dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.7.7*/
+/*1.7.8*/
 
 	/*Main color variables*/
 	:root
@@ -1320,6 +1320,16 @@
 	.module--news__left:hover, .module--news__right:hover
 	{
 		color: var(--main-color) !important;
+	}
+
+	/*Map*/
+	.module__section
+	{
+		border-color: var(--hover-background) !important;
+	}
+	.module__section p
+	{
+		color: var(--dimer-text) !important;
 	}
 }
 
