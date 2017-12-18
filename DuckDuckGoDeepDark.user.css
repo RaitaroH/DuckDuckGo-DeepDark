@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.7.8
+@version 1.7.9
 @updateURL https://rawgit.com/RaitaroH/DuckDuckGo-DeepDark/master/DuckDuckGoDeepDark.user.css
 @description DuckDuckGo dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.7.8*/
+/*1.7.9*/
 
 	/*Main color variables*/
 	:root
@@ -1195,7 +1195,7 @@
 	{
 		background: var(--second-background) !important;
 	}
-	.prettyprint .com, .module__title__sub
+	.prettyprint .com, .module__title__sub, pre, tt, code
 	{
 		color: var(--dimer-text) !important;
 	}
