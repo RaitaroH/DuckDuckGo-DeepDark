@@ -1374,7 +1374,7 @@
 	/* Error: search too long */
 	 #error_homepage 
 	{
-    		color: #b2b2b2;
-    		background: black;
+    		color: var(--dimer-text);
+    		background: var(--second-background);
 	}
 }
