@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.7.9
+@version 1.8.0
 @updateURL https://rawgit.com/RaitaroH/DuckDuckGo-DeepDark/master/DuckDuckGoDeepDark.user.css
 @description DuckDuckGo dark theme
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.7.9*/
+/*1.8.0*/
 
 	/*Main color variables*/
 	:root
@@ -365,6 +365,15 @@
 		z-index: 100 !important;
 		padding-bottom: 0 !important;
 	}
+
+
+	/* Error: search too long */
+	#error_homepage 
+	{
+		color: var(--dimer-text) !important;
+		background: var(--second-background) !important;
+	}
+
 
 	.zci-wrap
 	{
