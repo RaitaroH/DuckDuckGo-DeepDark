@@ -1379,4 +1379,11 @@
 	{
 		color: var(--dimer-text) !important;
 	}
+	
+	/* Error: search too long */
+	 #error_homepage 
+	{
+    		color: var(--dimer-text);
+    		background: var(--second-background);
+	}
 }
