@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.8.1
+@version 1.8.2
 @updateURL https://rawgit.com/RaitaroH/DuckDuckGo-DeepDark/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -137,7 +137,7 @@
 
 /*GNU General Public License v3.0*/
 
-/*1.8.1*/
+/*1.8.2*/
 
 	/*Main color variables*/
 	:root
@@ -1112,11 +1112,11 @@
 
 
 	/*About page*/
-	.blk__title, .abt__title, .timeline__title, .ddh__title, .app__title, .abt__key__title, h4, .news-tile__title, .news-tile__source
+	.blk__title, .abt__title, .timeline__title, .ddh__title, .app__title, .abt__key__title, h4, .news-tile__title, .news-tile__source, .module__header.module__header--link
 	{
 		color: var(--main-text) !important;
 	}
-	.abt__key__sub, .abt__key p
+	.abt__key__sub, .abt__key p, .module--news__body__content.js-news-content
 	{
 		color: var(--dimer-text) !important;
 	}
