@@ -119,7 +119,7 @@
 }
 @var color custom-main-text "main-text" "#eff0f1"
 
-@var select dimerText 'Secondary text color' {
+@var select dimmerText 'Secondary text color' {
 	"DeepDark": "#CCCCCC",
 	"BreezeDark": "#bdc3c7",
 	"Vertex Dark": "#AEAFB0",
@@ -158,7 +158,7 @@
 		--second-background: /*[[secondBackground]]*/;
 		--hover-background: /*[[hoverBackground]]*/;
 		--main-text: /*[[mainText]]*/;
-		--dimmer-text: /*[[dimerText]]*/;
+		--dimmer-text: /*[[dimmerText]]*/;
 
 		--shadow: 0 1px 0.5px rgba(0,0,0,0.13);
 
