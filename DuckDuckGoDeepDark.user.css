@@ -357,12 +357,12 @@
 
 	.svg .header__logo,.svg.dark-header .header__logo
 	{
-		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/logo.png) !important;
+		background-image: url(https://gitlab.com//RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/logo.png) !important;
 	}
 
 	.svg .logo_homepage
 	{
-		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/BigLogo.png) !important;
+		background-image: url(https://gitlab.com//RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/BigLogo.png) !important;
 	}
 	/*Added floating search bar*/
 	.set-header--fixed .header-wrap,.header-wrap
@@ -1400,11 +1400,11 @@
 	}
 	.logo_homepage
 	{
-		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/BigLogo.png) !important;
+		background-image: url(https://gitlab.com//RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/BigLogo.png) !important;
 	}
 	.header__logo-wrap
 	{
-		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/logo.png) !important;
+		background-image: url(https://gitlab.com//RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/logo.png) !important;
 	}
 	.search, .search--adv
 	{
