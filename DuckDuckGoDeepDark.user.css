@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name DuckDuckGo DeepDark
-@namespace github.com/RaitaroH/DuckDuckGo-DeepDark
-@homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
+@namespace gitlab.com/RaitaroH/DuckDuckGo-DeepDark
+@homepageURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark
 @version 1.8.4
-@updateURL https://rawgit.com/RaitaroH/DuckDuckGo-DeepDark/master/DuckDuckGoDeepDark.user.css
+@updateURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
 @license GNU-V3.0
@@ -145,7 +145,7 @@
 
 @-moz-document regexp("https?:\/\/(.*duckduckgo.com|3g2upl4pq6kufc4m.onion).*") {
 
-/*Theme made by RaitaroH @https://github.com/RaitaroH/DuckDuckGo-DeepDark*/
+/*Theme made by RaitaroH @https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark*/
 
 /*GNU General Public License v3.0*/
 
@@ -357,12 +357,12 @@
 
 	.svg .header__logo,.svg.dark-header .header__logo
 	{
-		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/logo.png) !important;
+		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/logo.png) !important;
 	}
 
 	.svg .logo_homepage
 	{
-		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/BigLogo.png) !important;
+		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/BigLogo.png) !important;
 	}
 	/*Added floating search bar*/
 	.set-header--fixed .header-wrap,.header-wrap
@@ -1400,11 +1400,11 @@
 	}
 	.logo_homepage
 	{
-		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/BigLogo.png) !important;
+		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/BigLogo.png) !important;
 	}
 	.header__logo-wrap
 	{
-		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/master/Images/logo.png) !important;
+		background-image: url(https://raw.githubusercontent.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/logo.png) !important;
 	}
 	.search, .search--adv
 	{
