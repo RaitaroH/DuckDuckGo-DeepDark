@@ -143,7 +143,7 @@
 
 ==/UserStyle== */
 
-@-moz-document regexp("https?:\/\/(.*duckduckgo.com|3g2upl4pq6kufc4m.onion).*") {
+@-moz-document regexp("https?:\/\/(.*duckduckgo.com|3g2upl4pq6kufc4m.onion)\/(?!donations).*$") {
 
 /*Theme made by RaitaroH @https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark*/
 
