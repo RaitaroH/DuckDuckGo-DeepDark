@@ -1,5 +1,6 @@
 # DuckDuckGo-DeepDark
-![alt tag](./Images/DDG%20-%20DeepDark.png)
+
+![alt tag](./Images/banner.png)
 
 Light will blind thee in thy search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 
@@ -18,32 +19,22 @@ Also, credit where credit is due for the color palettes down bellow. ([@KDE](htt
 
 ### **You can also install all my themes at once from [here](https://gitlab.com/RaitaroH/Import-All-Deepdark).**
 
+# Install and setup
+
+### Using a browser extension:
+* Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
+
+### Install this theme:
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-3daee9.svg?longCache=true&style=for-the-badge)](https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css)
+  >Installs directly from this repository.
+  >This is only available using Stylus (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)). :tada:
+
 # Screenshots
 
-Main page
-![alt tag](./Images/MainPage.png)
-
-Search
-
-![alt tag](./Images/Search.png)
-
-Timer
-
-![alt tag](./Images/Timer.png)
-
-Weather
-
-![alt tag](./Images/Weather.png)
-
-# Colors
 Colors Showcase (the colors are available in the code; different colors can be used)
-![alt tag](./Images/ArcDarkColors.png)
-![alt tag](./Images/BreezeDarkColors.png)
-![alt tag](./Images/DeepDarkColors.png)
-![alt tag](./Images/DiscordColors.png)
-![alt tag](./Images/FirefoxDarkColors.png)
-![alt tag](./Images/Firefox57DarkColors.png)
-![alt tag](./Images/Mint-Y-DarkColors.png)
-![alt tag](./Images/VertexDarkColors.png)
-![alt tag](./Images/YouTubeColors.png)
-![alt tag](./Images/9animeColors.png)
+
+![alt tag](./Images/Colors.gif)
+
+Other colors examples from my [Stylus-DeepDark](https://gitlab.com/RaitaroH/Stylus-DeepDark).
+
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Stylus-DeepDark/master/Images/manager.gif)
