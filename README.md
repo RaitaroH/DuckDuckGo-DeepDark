@@ -3,7 +3,7 @@
 
 Light will blind thee in thy search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 
-This is a dark theme for DuckDuckGo inspired by [FT DeepDark](https://addons.mozilla.org/en-US/firefox/addon/ft-deepdark/?src=search).
+This is a dark theme for DuckDuckGo inspired by FT DeepDark.
 
 This dark theme is based on the default dark theme for DuckDuckGo found [here](https://userstyles.org/styles/122820/duckduckgo-default-dark-theme).
 
@@ -15,8 +15,6 @@ Also, credit where credit is due for the color palettes down bellow. ([@KDE](htt
 * Stylus - get the addon for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) and [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).
 * This is only available using Stylus (see the [documentation](https://github.com/openstyles/stylus/wiki/Usercss)).
 * Also see the documentation for information about customizing the theme. :tada:
-
-Theme as a userstyle [here](https://userstyles.org/users/377182).
 
 ### **You can also install all my themes at once from [here](https://gitlab.com/RaitaroH/Import-All-Deepdark).**
 
