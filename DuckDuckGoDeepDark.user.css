@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace gitlab.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.8.7
+@version 1.8.8
 @updateURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -829,7 +829,8 @@
 	.zci__body h3, .zci__detail h3,.zci__body h4, .zci__detail h4,.zci__body h5, .zci__detail h5,.zci__body h6,
 	.zci__detail h6,.metabar,.c-detail__title,.c-detail__title__sub,.c-detail__desc,.c-detail__filemeta,.c-detail__more,
 	.c-detail__user,.c-detail__count,.c-detail__date,.c-info,.c-info__title,.c-icon,.c-icon__title,.c-icon__content,
-	.c-score,.metabar__dropdown__selected,.metabar__dropdown__selected:hover,.metabar__dropdown__selected:focus
+	.c-score,.metabar__dropdown__selected,.metabar__dropdown__selected:hover,.metabar__dropdown__selected:focus,
+	.detail__close.js-detail-close
 	{
 		color: var(--dimmer-text) !important;
 	}
@@ -852,7 +853,7 @@
 	{
 		color: var(--dimmer-text) !important;
 	}
-	.zci__body a:hover, .zcm__link--sub:hover
+	.zci__body a:hover, .zcm__link--sub:hover, .detail__close.js-detail-close:hover
 	{
 		color: var(--main-color) !important;
 	}
@@ -1332,15 +1333,19 @@
 	}
 
 	/*News*/
-	.module--news__title, .module--news__body__title
+	.module--news__title, .module--news__body__title,
+	.place-list-item__title
 	{
 		color: var(--main-text) !important;
 	}
-	.module--news__title:hover, .module--news__body__title:hover, .module--news__item:hover .module--news__body__title
+	.module--news__title:hover, .module--news__body__title:hover, .module--news__item:hover .module--news__body__title,
+	.place-list-item__title:hover,
+	.module__link--blue, .module__link--blue:hover, .module__link--blue:active, .module__link--blue:focus
 	{
 		color: var(--main-color) !important;
 	}
-	.feedback-prompt, .module--news__footer
+	.feedback-prompt, .module--news__footer,
+	.place-list-item__info__item
 	{
 		color: var(--dimmer-text) !important;
 	}
@@ -1364,9 +1369,33 @@
 	{
 		border-color: var(--hover-background) !important;
 	}
-	.module__section p
+	.module__section p,
+	.vertical--map--no-results .vertical--map__sidebar__results__inner
 	{
 		color: var(--dimmer-text) !important;
+	}
+	.module__section.place-list-item:hover
+	{
+		background-color: var(--hover-background) !important;
+	}
+	.vertical--map__sidebar__wrapper, .vertical--map__sidebar__header 
+	{
+		background-color: var(--hover-background) !important;
+	}
+	.vertical--map--sidebar-left .vertical--map__sidebar__header__link__icon
+	{
+		filter: invert(1);
+	}
+
+	/*Calendar*/
+	.zci--calendar_today .calendar .t_right, .zci--calendar_today .calendar .t_left
+	{
+		background-color: var(--hover-background) !important;
+	}
+	.zci--calendar_today .calendar__today
+	{
+		background-color: var(--hover-background) !important;
+		color: var(--main-color) !important;
 	}
 
 	/*some more links for you*/
