@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace gitlab.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.8.8
+@version 1.8.9
 @updateURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -359,7 +359,7 @@
 
 
 	/* Error: search too long */
-	#error_homepage 
+	#error_homepage
 	{
 		color: var(--dimmer-text) !important;
 		background: var(--second-background) !important;
@@ -763,11 +763,12 @@
 
 	.search__button--active,.search:hover .search__button,.search__input:focus ~ .search__button,
 	.search--header.has-text.search--hover .search__button,.search--header.has-text.search--focus .search__button,
-	.search--home.has-text .search__button,.search__button:focus,.search:hover .search__button:focus,.search--home.has-text .search__button:focus
+	.search--home.has-text .search__button,.search__button:focus,.search:hover .search__button:focus,.search--home.has-text .search__button:focus,
+	.search__button, .search__button--hero
 	{
 		background-color: var(--second-background) !important;
 	}
-	.search__button:hover,.search--header.has-text.search--focus .search__button:hover,.search--header.has-text.search--hover .search__button:hover,.search--home.has-text .search__button:hover
+	.search__button:hover,.search--header.has-text.search--focus .search__button:hover,.search--header.has-text.search--hover .search__button:hover,.search--home.has-text .search__button:hover, .search__button:hover, .search__button--hero:hover
 	{
 		background-color: var(--hover-background) !important;
 	}
@@ -1118,7 +1119,7 @@
 	}
 
 	/*Convertions stuff*/
-	.zci--currency .frm__select, .zci--currency .frm__select::after, .zci--currency .frm__input, .zci--conversions .frm__select select, 
+	.zci--currency .frm__select, .zci--currency .frm__select::after, .zci--currency .frm__input, .zci--conversions .frm__select select,
 	.zci--conversions .frm__select, .zci--conversions .frm__input.frm__input
 	{
 		background-color: var(--main-background) !important;
@@ -1378,7 +1379,7 @@
 	{
 		background-color: var(--hover-background) !important;
 	}
-	.vertical--map__sidebar__wrapper, .vertical--map__sidebar__header 
+	.vertical--map__sidebar__wrapper, .vertical--map__sidebar__header
 	{
 		background-color: var(--hover-background) !important;
 	}
