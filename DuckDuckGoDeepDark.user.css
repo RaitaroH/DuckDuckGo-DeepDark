@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace gitlab.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.8.9
+@version 1.9.0
 @updateURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -539,11 +539,20 @@
 		border-color: var(--second-background) !important;
 	}
 
-	.btn.is-active,.btn.btn--primary,.btn--primary:hover,.is-checked .btn.frm__switch__label
+	/*checked*/
+	.btn.is-active,.btn.btn--primary,.btn--primary:hover, .is-checked .btn.frm__switch__label
 	{
 		color: var(--main-background) !important;
 		border-color: var(--second-background) !important;
-		background-color: var(--dimmer-text) !important;
+		background-color: var(--main-color) !important;
+	}
+	.modal--dropdown--settings .settings-dropdown--section .frm__field .frm__switch .frm__switch__label.btn
+	{
+		bacground: var(--hover-background) !important;
+	}
+	.modal--dropdown--settings .settings-dropdown--section .frm__field .frm__switch .frm__switch__label.btn::after
+	{
+		background: var(--main-text) !important;
 	}
 
 	.switch,.region-flag__bg
@@ -572,6 +581,7 @@
 		border-bottom-color: var(--second-background) !important;
 	}
 
+	/*settings dropdown*/
 	.modal--popout--bottom.has-header .modal__box:before,.modal--popout--bottom-right.has-header .modal__box:before,
 	.modal--popout--bottom-left.has-header .modal__box:before,.modal--popout--bottom.has-header .modal__box:after,
 	.modal--popout--bottom-right.has-header .modal__box:after,.modal--popout--bottom-left.has-header .modal__box:after,.modal--popout .modal__box:before
@@ -582,6 +592,14 @@
 	.modal--popout .modal__box:after
 	{
 		color: var(--main-background) !important;
+	}
+	.modal--dropdown--settings .settings-dropdown--section
+	{
+		border-color: var(--hover-background) !important;
+	}
+	.modal--dropdown--settings .settings-dropdown--section .frm__field .frm__select::before
+	{
+		background: transparent !important;
 	}
 
 	.nav-menu,.nav-menu--slideout
@@ -1197,7 +1215,7 @@
 	{
 		color: var(--main-text) !important;
 	}
-	.frm__desc.frm__desc--break-xs
+	.set-main .frm__desc
 	{
 		color: var(--dimmer-text) !important;
 	}
