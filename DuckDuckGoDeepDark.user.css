@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace gitlab.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.9.0
+@version 1.9.1
 @updateURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -990,7 +990,7 @@
 		outline: none!important;
 	}
 
-	.tile--m
+	.tile--m, .tile .tile__body
 	{
 		background-color: var(--main-background) !important;
 		color: var(--dimmer-text) !important;
@@ -1357,6 +1357,13 @@
 	{
 		color: var(--main-text) !important;
 	}
+	/*also keeping results highlight here*/
+	.module:not(.module--carousel):not(.module--placeholder):not(.module--images), .modal--popout .modal__box, .modal__box, .sidebar-modules .module, .results--main .result:not(.result--ad).highlight, .module .module--carousel__item, .user-loc-cta, .address-detail, .modal--dropdown.modal--popout .modal__box, .tile--info, .vertical--map__sidebar__results__inner, .place-detail, .badge-link, .atb-banner__bottom, .is-mobile .results_links_deep, .is-mobile .results_links, .is-mobile .result--news, .most-visited__info-tt
+	{
+		background-color: var(--second-background) !important;
+		border-color: var(--second-background) !important;
+		color: var(--main-text) !important;
+	}
 	.module--news__title:hover, .module--news__body__title:hover, .module--news__item:hover .module--news__body__title,
 	.place-list-item__title:hover,
 	.module__link--blue, .module__link--blue:hover, .module__link--blue:active, .module__link--blue:focus
@@ -1372,13 +1379,13 @@
 	{
 		border-color: var(--hover-background) !important;
 	}
-	.module--news__left, .module--news__right
+	.module--carousel__left, .module--carousel__right
 	{
 		background-color: var(--hover-background) !important;
 		border-color: var(--hover-background) !important;
 		color: var(--main-text) !important;
 	}
-	.module--news__left:hover, .module--news__right:hover
+	.module--carousel__left:hover, .module--carousel__right:hover
 	{
 		color: var(--main-color) !important;
 	}
