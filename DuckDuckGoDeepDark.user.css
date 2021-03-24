@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name DuckDuckGo DeepDark
-@namespace gitlab.com/RaitaroH/DuckDuckGo-DeepDark
-@homepageURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.9.3
-@updateURL https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
+@namespace github.com/RaitaroH/DuckDuckGo-DeepDark
+@homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
+@version 1.9.4
+@updateURL https://github.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
 @license GNU-V3.0
@@ -484,6 +484,10 @@
 	.feedback-btn__icon,.feedback-btn__send,.feedback-modal .frm__label
 	{
 		color: var(--main-text) !important;
+	}
+	.result__timestamp, .tile__time, .result__date
+	{
+		color: var(--dimmer-text) !important;
 	}
 	.is-mobile .results_links_deep, .is-mobile .results_links
 	{
@@ -1127,6 +1131,10 @@
 	{
 		color: var(--main-color) !important;
 	}
+	.modal--dropdown.modal--dropdown--date .modal__footer
+	{
+		border-color: var(--hover-background) !important;
+	}
 	.tile.tile--c--w.tile--vid.has-detail.opt--t-xxs:hover, .tile.tile--c.js-tile--Top:hover, .has-tiles .tile:hover
 	{
 		border: none !important;
@@ -1380,6 +1388,7 @@
 	{
 		background-color: var(--hover-background) !important;
 		border-color: var(--hover-background) !important;
+		color: var(--dimmer-text) !important;
 	}
 	.feedback-prompt, .module--news__footer,
 	.place-list-item__info__item
@@ -1423,6 +1432,30 @@
 	{
 		filter: invert(1);
 	}
+	/*map card*/
+	.address-detail__name
+	{
+		color: var(--main-text) !important;
+	}
+	.address-detail__name:hover, .address-detail__name:active, .address-detail__name:focus, .address-detail__name:visited
+	{
+		color: var(--main-color) !important;
+	}
+	.address-detail__address
+	{
+		color: var(--dimmer-text) !important;
+	}
+	
+	/*Is this helpful*/
+	.modal__box.modal__box--feedback.modal__box--headed .modal__box__header
+	{
+		background-color: var(--main-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	.feedback-modal__message
+	{
+		color: var(--main-text) !important;
+	}
 
 	/*Calendar*/
 	.zci--calendar_today .calendar .t_right, .zci--calendar_today .calendar .t_left
@@ -1457,6 +1490,11 @@
 	.footer__card__title:hover
 	{
 		color: var(--main-color) !important;
+	}
+
+	.result__pagenum
+	{
+		color: var(--main-text) !important;
 	}
 }
 @-moz-document url-prefix("https://duckduckgo.com/html") {
