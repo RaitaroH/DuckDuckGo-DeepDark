@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.9.4
+@version 1.9.5
 @updateURL https://github.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -485,7 +485,8 @@
 	{
 		color: var(--main-text) !important;
 	}
-	.result__timestamp, .tile__time, .result__date
+	.result__timestamp, .tile__time, .result__date,
+	.module--carousel__footer
 	{
 		color: var(--dimmer-text) !important;
 	}
@@ -1492,9 +1493,29 @@
 		color: var(--main-color) !important;
 	}
 
+	/*Page number*/
 	.result__pagenum
 	{
 		color: var(--main-text) !important;
+	}
+
+	/*Privacy simplified*/
+	.header__label, .header__link, .header__clickable
+	{
+		color: var(--main-text) !important;
+	}
+	.header__clickable:hover, .header__clickable:focus
+	{
+		color: var(--main-color) !important;
+	}
+	.showcase .showcase__dropdown-top .showcase__dropdown__list:hover
+	{
+		background-color: var(--hover-background) !important;
+	}
+	.showcase .showcase__dropdown-bottom
+	{
+		background-color: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
 	}
 }
 @-moz-document url-prefix("https://duckduckgo.com/html") {
