@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.9.5
+@version 1.9.6
 @updateURL https://github.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -481,7 +481,8 @@
 	.frm__label,.no-results__related-search a,.no-results__related-search a:visited,.no-results__related-search a:active,
 	.no-results__related-search a:hover,.modal__box,.modal__header__title,.modal__list__link,.modal__list__link:hover,
 	.modal__list__link:visited,.modal__list__link:focus,.modal__list__link.is-active,.modal__list__link.is-highlighted,
-	.feedback-btn__icon,.feedback-btn__send,.feedback-modal .frm__label
+	.feedback-btn__icon,.feedback-btn__send,.feedback-modal .frm__label,
+	.results--sidebar .related-searches__title-short
 	{
 		color: var(--main-text) !important;
 	}
@@ -1390,6 +1391,10 @@
 		background-color: var(--hover-background) !important;
 		border-color: var(--hover-background) !important;
 		color: var(--dimmer-text) !important;
+	}
+	.module__toggle--more::after
+	{
+		background: linear-gradient(rgba(255,255,255,0), var(--hover-background));
 	}
 	.feedback-prompt, .module--news__footer,
 	.place-list-item__info__item
