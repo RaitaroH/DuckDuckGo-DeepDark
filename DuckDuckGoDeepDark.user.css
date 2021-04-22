@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.9.6
+@version 1.9.7
 @updateURL https://github.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -1394,7 +1394,7 @@
 	}
 	.module__toggle--more::after
 	{
-		background: linear-gradient(rgba(255,255,255,0), var(--hover-background));
+		background: linear-gradient(rgba(255,255,255,0), var(--hover-background)) !important;
 	}
 	.feedback-prompt, .module--news__footer,
 	.place-list-item__info__item
