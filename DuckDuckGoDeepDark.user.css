@@ -560,7 +560,7 @@
 	}
 	.modal--dropdown--settings .settings-dropdown--section .frm__field .frm__switch .frm__switch__label.btn
 	{
-		bacground: var(--hover-background) !important;
+		background: var(--hover-background) !important;
 	}
 	.modal--dropdown--settings .settings-dropdown--section .frm__field .frm__switch .frm__switch__label.btn::after
 	{
