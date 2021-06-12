@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 1.9.7
+@version 1.9.8
 @updateURL https://github.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -1323,6 +1323,45 @@
 	.zci--calculator .tile__calc .tile__display
 	{
 		box-shadow: inset -1px -1px 0px var(--hover-background), inset 1px 1px 0px var(--hover-background) !important;
+	}
+
+	/*Weather forecast*/
+	.forecast-wrapper .module--forecast .module__weather-warning
+	{
+		color: var(--main-color) !important;
+	}
+	.forecast-wrapper .module--forecast .module__warnings
+	{
+		border-color: var(--hover-background) !important;
+	}
+	/*cards*/
+	.forecast-wrapper .module--forecast .module__items-item
+	{
+		background: var(--second-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	.forecast-wrapper .module--forecast .module__items-item:hover
+	{
+		background: var(--hover-background) !important;
+	}
+	/*labels*/
+	.forecast-wrapper .module--forecast .module__detail__precip-label
+	{
+		color: var(--main-color) !important;
+	}
+	.forecast-wrapper .module--forecast .module__detail__bottom
+	{
+		color: var(--main-text) !important;
+	}
+	.forecast-wrapper .module--forecast .module__detail__hour-label
+	{
+		color: var(--dimmer-text) !important;
+	}
+	/*temperature unit*/
+	.forecast-wrapper .module--forecast .module__temperature-unit--on
+	{
+		border-color: var(--main-color) !important;
+		color: var(--main-text) !important;
 	}
 
 	/*2048 game*/
