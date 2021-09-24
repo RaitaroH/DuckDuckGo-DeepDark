@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 2.0.0
+@version 2.0.1
 @updateURL https://github.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -455,6 +455,41 @@
 		color: var(--main-color) !important;
 	}
 
+	/*results domain*/
+	/*new style*/
+	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls #links .result__url__full,
+	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls #links .result__url__full:active,
+	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls #links .result__url__full:visited:focus,
+	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls #ads .result__url__full,
+	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls #ads .result__url__full:active,
+	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls #ads .result__url__full:visited:focus,
+	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls .results--sidebar .result__url__full,
+	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls .results--sidebar .result__url__full:active,
+	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls .results--sidebar .result__url__full:visited:focus
+	{
+		color: var(--dimmer-text) !important;
+	}
+	/*old style*/
+	.is-link-style-exp .result__url,
+	.is-link-style-exp .result__url:visited,
+	.is-link-style-exp .result__url:active,
+	.is-link-style-exp .result__url:hover,
+	.is-link-style-exp .result__url:focus,
+	.is-link-style-exp .result__url:visited:focus,
+	.is-link-style-exp .result__url__full,
+	.is-link-style-exp .result__url__full:visited,
+	.is-link-style-exp .result__url__full:active,
+	.is-link-style-exp .result__url__full:hover,
+	.is-link-style-exp .result__url__full:focus,
+	.is-link-style-exp .result__url__full:visited:focus,
+	.is-link-style-exp .result--ad .result__url,
+	.is-link-style-exp .result--ad .result__url:hover,
+	.is-link-style-exp .result--ad .result__url:active,
+	.is-link-style-exp .result--ad .result__url:visited
+	{
+		color: var(--dimmer-text) !important;
+	}
+
 	.zcm__link.is-active,.zci--timer .play_pause .first_half_fill, .zci--timer .play_pause .rotated_fill
 	{
 		border-color: var(--main-color) !important;
@@ -617,6 +652,24 @@
 	.modal--dropdown--settings .settings-dropdown--section .frm__field .frm__switch .frm__switch__label.btn::after
 	{
 		background: var(--main-text) !important;
+	}
+	.is-link-style-exp .btn--primary:not(.is-disabled),
+	.is-link-style-exp .is-checked .frm__switch__label,
+	.is-link-style-exp .modal--dropdown--settings .settings-dropdown--section .frm__field.is-checked .frm__switch .frm__switch__label.btn,
+	.is-link-style-exp .set-themes .set-theme.is-checked .set-theme__check,
+	.is-link-style-exp .modal__box.modal__box--custom_date.modal__box--headed .modal__box__content .pika-single .pika-table tbody td.is-startrange .pika-day,
+	.is-link-style-exp .modal__box.modal__box--custom_date.modal__box--headed .modal__box__content .pika-single .pika-table tbody td.is-endrange .pika-day,
+	.is-link-style-exp .modal__box.modal__box--custom_date.modal__box--headed .modal__box__content .pika-single .pika-table tbody td.is-selected .pika-day,
+	.is-link-style-exp .switch.is-on,
+	.is-link-style-exp .cta-icon--selected,
+	.is-link-style-exp .is-selected .directions-search__mode__type__icon,
+	.is-link-style-exp .atb-banner__btn--standalone,
+	.is-link-style-exp .atb-banner__btn--standalone:hover,
+	.is-link-style-exp .atb-banner__btn--standalone:focus,
+	.is-link-style-exp .atb-banner__btn--standalone:active
+	{
+		background-color: var(--main-color) !important;
+		border-color: var(--main-color) !important;
 	}
 
 	.switch,.region-flag__bg
@@ -1533,6 +1586,23 @@
 	{
 		color: var(--main-color) !important;
 	}
+	/*More News*/
+	.is-vertical-tabs-exp .module.module--carousel .module__footer,
+	.is-vertical-tabs-exp .is-mobile .module--carousel.module--images .module__footer,
+	.is-mobile .is-vertical-tabs-exp .module--carousel.module--images .module__footer,
+	.is-vertical-tabs-exp .module.module--images .module__footer,
+	.is-vertical-tabs-exp .is-mobile .module--images .module__footer,
+	.is-mobile .is-vertical-tabs-exp .module--images .module__footer
+	{
+		background-color: var(--second-background) !important;
+		border-color: var(--second-background) !important;
+		color: var(--dimmer-text) !important;
+	}
+	/*more results*/
+	.is-related-search-exp .related-searches__item
+	{
+		border-color: var(--hover-background) !important;
+	}
 
 	/*Map*/
 	.module__section
@@ -1556,6 +1626,11 @@
 	{
 		filter: invert(1);
 	}
+	/*Directions*/
+	.place-detail__cta-text
+	{
+		color: var(--dimmer-text) !important;
+	}
 	/*map card*/
 	.address-detail__name
 	{
@@ -1569,7 +1644,35 @@
 	{
 		color: var(--dimmer-text) !important;
 	}
-	
+	/*map icons legend and other things*/
+	.is-link-style-exp .badge--ad__tooltip-link,
+	.is-link-style-exp .badge--ad__tooltip-link:visited,
+	.is-link-style-exp .no-results__link,
+	.is-link-style-exp .modal__box.modal__box--custom_date.modal__box--headed .modal__box__content .pika-single .pika-table tbody .is-startrange .pika-day::after,
+	.is-link-style-exp .modal__box.modal__box--custom_date.modal__box--headed .modal__box__content .pika-single .pika-table tbody .is-endrange .pika-day::after,
+	.is-link-style-exp .module__link--blue,
+	.is-link-style-exp .module__link--blue:hover,
+	.is-link-style-exp .module__link--blue:active,
+	.is-link-style-exp .module__link--blue:focus,
+	.is-link-style-exp .module__detail__precip-label span,
+	.is-link-style-exp .modal__header .modal__header__clear,
+	.is-link-style-exp .modal--dropdown.modal--dropdown--date .modal__footer .modal__list__link,
+	.is-link-style-exp .modal--dropdown.modal--dropdown--license .modal__footer .modal__list__link,
+	.is-link-style-exp .modal--dropdown--settings .settings-dropdown--section .settings-dropdown--header .settings-dropdown--header--link,
+	.is-link-style-exp .modal--dropdown--settings .settings-dropdown--button,
+	.is-link-style-exp .user-loc-link,
+	.is-link-style-exp .user-loc-link:visited,
+	.is-link-style-exp .vertical--map__search-web .module__link,
+	.is-link-style-exp .vertical--map__search-this-area,
+	.is-link-style-exp .vertical--map__search-examples__button,
+	.is-link-style-exp:not(.is-mobile) .is-selected .directions-route-overview__print,
+	.is-link-style-exp .sidebar-filter__show-more,
+	.is-vertical-tabs-exp #duckbar .zcm__link.is-active:not(.dropdown__button),
+	.is-vertical-tabs-exp.is-mobile .module--images .module__toggle
+	{
+		color: var(--main-color) !important;
+	}
+
 	/*Is this helpful*/
 	.modal__box.modal__box--feedback.modal__box--headed .modal__box__header
 	{
