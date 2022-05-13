@@ -411,6 +411,44 @@
 		padding-bottom: 0 !important;
 	}
 
+	/*Homepage*/
+	/*below searchbar*/
+	.is-atb-fullbleed .content-info__title
+	{
+		margin-top: 10px;
+		color: var(--dimmer-text) !important;
+	}
+	/*info cards*/
+	.is-atb-fullbleed .content-info__item
+	{
+		background-color: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	.is-atb-fullbleed .content-info__item__title
+	{
+		color: var(--main-text) !important;
+	}
+	.is-atb-fullbleed .content-info__item__subtitle
+	{
+		color: var(--dimmer-text) !important;
+	}
+	.is-atb-fullbleed .content-info__item__link
+	{
+		color: var(--main-color) !important;
+	}
+	/*FAQ*/
+	.faq__section
+	{
+		border-color: var(--hover-background) !important;
+	}
+	.faq__title, .faq__question
+	{
+		color: var(--main-text) !important;
+	}
+	.faq__answer p
+	{
+		color: var(--dimmer-text) !important;
+	}
 
 	/* Error: search too long */
 	#error_homepage
