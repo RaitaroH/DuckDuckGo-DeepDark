@@ -450,6 +450,7 @@
 		color: var(--dimmer-text) !important;
 	}
 
+
 	/* Error: search too long */
 	#error_homepage
 	{
@@ -623,6 +624,48 @@
 		background-color: transparent !important;
 		border-color: none !important;
 		box-shadow: none !important;
+	}
+	/*new article results*/
+	/*.is-mobile .yQDlj3B5DI5YO8c8Ulio, .yQDlj3B5DI5YO8c8Ulio.jHKRD_8UMD51jfnKQ1LL*/
+	.nrn-react-div > article
+	{
+		background-color: transparent !important;
+	}
+	/*url*/
+	.nrn-react-div > article > div:nth-child(1) > div > a > span
+	{
+		color: var(--main-color) !important;
+	}
+	/*title*/
+	.nrn-react-div > article > div:nth-child(2) > h2 > a
+	{
+		color: var(--main-text) !important;
+	}
+	.nrn-react-div > article:hover > div:nth-child(2) > h2 > a
+	{
+		color: var(--main-color) !important;
+	}
+	/*main quote*/
+	.nrn-react-div > article > div:nth-child(3) > div > span
+	{
+		color: var(--dimmer-text) !important;
+	}
+	/*the 6 small briefs*/
+	.nrn-react-div > article div:nth-child(4) > div > ul > li > a
+	{
+		color: var(--main-text) !important;
+	}
+	.nrn-react-div > article div:nth-child(4) > div > ul > li:hover > a
+	{
+		text-decoration: underline;
+	}
+	.nrn-react-div > article div:nth-child(4) > div > ul > li > p > span
+	{
+		color: var(--dimmer-text) !important;
+	}
+	.nrn-react-div > article div:nth-child(4) > div > ul::after
+	{
+		opacity: 0;
 	}
 
 	.settings-page-wrapper .set-side a,.settings-page-wrapper .set-side a:hover,.settings-page-wrapper .set-side a:active
@@ -1642,6 +1685,7 @@
 	.is-related-search-exp .related-searches__item
 	{
 		border-color: var(--hover-background) !important;
+		background-color: transparent !important;
 	}
 
 	/*Map*/
