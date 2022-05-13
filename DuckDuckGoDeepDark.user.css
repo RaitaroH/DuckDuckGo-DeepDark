@@ -57,7 +57,7 @@
 
 @-moz-document regexp("https?:\/\/(?!help\.)(.*duckduckgo.com|3g2upl4pq6kufc4m.onion)\/(?!donations).*$") {
 
-/*Theme made by RaitaroH @https://gitlab.com/RaitaroH/DuckDuckGo-DeepDark*/
+/*Theme made by RaitaroH @https://github.com/RaitaroH/DuckDuckGo-DeepDark*/
 
 /*GNU General Public License v3.0*/
 
@@ -343,6 +343,8 @@
 			--dimmer-text: dimmerText;
 			--shadow: 0 1px 0.5px colorShadow;
 		}
+		--logo: url("assets/logo_header.alt.v108.svg");
+		--biglogo: url("assets/logo_homepage.alt.v108.svg");
 	}
 	*
 	{
@@ -390,12 +392,12 @@
 
 	.svg .header__logo,.svg.dark-header .header__logo
 	{
-		background-image: url(https://gitlab.com//RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/logo.png) !important;
+		background-image: var(--logo) !important;
 	}
 
 	.svg .logo_homepage
 	{
-		background-image: url(https://gitlab.com//RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/BigLogo.png) !important;
+		background-image: var(--biglogo) !important;
 	}
 	/*Added floating search bar*/
 	.set-header--fixed .header-wrap,.header-wrap
@@ -1760,11 +1762,11 @@
 	}
 	.logo_homepage
 	{
-		background-image: url(https://gitlab.com//RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/BigLogo.png) !important;
+		background-image: var(--logo) !important;
 	}
 	.header__logo-wrap
 	{
-		background-image: url(https://gitlab.com//RaitaroH/DuckDuckGo-DeepDark/raw/master/Images/logo.png) !important;
+		background-image: var(--biglogo) !important;
 	}
 	.search, .search--adv
 	{
