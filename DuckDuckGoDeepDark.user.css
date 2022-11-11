@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 2.0.2
+@version 2.0.3
 @updateURL https://github.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -1621,6 +1621,36 @@
 		border-bottom-color: var(--hover-background) !important;
 	}
 
+	/*stock market*/
+	.ia-module--stocks .stocks-module__exchange,
+	.ia-module--stocks .stocks-module__latestUpdate,
+	.stocks-module__disclaimer
+	{
+		color: var(--main-text) !important;
+	}
+	.ia-module--stocks .stocks-module__chart-area-row .stocks-module__vertical-labels p,
+	.ia-module--stocks .stocks-module__horizontal-labels p
+	{
+		color: var(--dimmer-text) !important;
+	}
+	.ia-module--stocks .stocks-module__range-content .stocks-module__timePeriod.selected
+	{
+		background-color: rgba(0,0,0,.3) !important;
+		color: var(--main-text) !important;
+	}
+	.ia-module--stocks .stocks-module__chart-area-row .stocks-module__chart .horizontal-line, .ia-module--stocks .stocks-module__chart-area-row .stocks-module__chart .vertical-line
+	{
+		stroke: var(--hover-background) !important;
+	}
+	.ia-module--stocks .stocks-module__stats-wrapper .stocks-module__stats .stocks-module__stat-col .stocks-module__stat
+	{
+		border-color: var(--hover-background) !important;
+	}
+	.ia-module--stocks .stocks-module__stats-wrapper .stocks-module__stats .stocks-module__stat-col .stocks-module__stat label
+	{
+		color: var(--main-text) !important;
+	}
+
 	/*News*/
 	.module--news__title, .module--news__body__title,
 	.place-list-item__title
@@ -1765,6 +1795,14 @@
 	}
 	.feedback-modal__message
 	{
+		color: var(--main-text) !important;
+	}
+
+	/*feedback*/
+	.frm__text, .frm__input
+	{
+		background-color: var(--hover-background) !important;
+		border-color: var(--hover-background) !important;
 		color: var(--main-text) !important;
 	}
 
