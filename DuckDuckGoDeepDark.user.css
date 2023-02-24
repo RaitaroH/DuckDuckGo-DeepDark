@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 2.0.5
+@version 2.0.6
 @updateURL https://github.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -1826,6 +1826,38 @@
 		color: var(--main-color) !important;
 	}
 
+	/*custom date range*/
+	/*day calendar icon*/
+	.modal__box.modal__box--custom_date.modal__box--headed .modal__box__content .custom_date__fields .custom_date__input
+	{
+		background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAV5JREFUKJGVkL9KA0EQxr/ZvT0Rcr3gMwQSNi9wKFhZ5gmC/zp7WyVdtLKwEQubNLYKynVpdielWqYRIWCVFLLe3ViYkyCYkK+ZYfb7zcwOMBMzn2KJ5j3kvb8A8CkiW0T0tAisPCKyBufcOQA45w6WTaw8zrlz8t5fxnF8sgyaVwjhLAJQDyHsrwICqIOZe/OVwWCwDgDee5NlWTRfqyIz99TfVsaYa2a2AA6TJDliZmuMuc6yLIrj2IsIoaJXXBPM3IsAQESImR8nk8lOrVa7UEpdAbAAQETDoij2ptPpcZIkD9ba7eFwCDV7FK11J03T3BjTFZEXpdSdUuquLMtnY0w3TdNca90hIgHwA4oIFUXR6ff7Os/zXa31Zp7nLRGxrVbrq9FovAFAs9kcVev+TiSi13a7XRLRKIQwUUqNy7Ic//fPqEqstbez9H4WPxYdiLz3NwDeVzgqAGx8Aw2hohTpNDNzAAAAAElFTkSuQmCC');
+	}
+	/*arrows*/
+	.modal__box.modal__box--custom_date.modal__box--headed .modal__box__content .pika-single .pika-prev, .modal__box.modal__box--custom_date.modal__box--headed .modal__box__content .pika-single .pika-next
+	{
+		color: var(--main-text) !important;
+	}
+	/*year*/
+	.pika-label, .pika-single
+	{
+		color: var(--main-text) !important;
+	}
+	/*day columns*/
+	.pika-table th
+	{
+		color: var(--dimmer-text) !important;
+	}
+	/*days*/
+	.modal__box.modal__box--custom_date.modal__box--headed .modal__box__content .pika-single .pika-table tbody .pika-day
+	{
+		color: var(--main-text) !important;
+	}
+	/*day hover*/
+	.is-not-mobile-device .modal__box.modal__box--custom_date.modal__box--headed .modal__box__content .pika-single td:hover .pika-day
+	{
+		background-color: var(--hover-background) !important;
+	}
+
 	/*time.is*/
 	.O9Ipab51rBntYb0pwOQn /*card*/
 	{
@@ -1888,6 +1920,17 @@
 	{
 		background-color: var(--hover-background) !important;
 		border-color: var(--hover-background) !important;
+	}
+
+	/*only showing results from a site*/
+	.FxoFor3rCuKLatv7G_Nt
+	{
+		background: transparent !important;
+		color: var(--main-color) !important;
+	}
+	.z6AMZrqgrYpEtHiAFWfx
+	{
+		color: var(--dimmer-text) !important;
 	}
 }
 @-moz-document url-prefix("https://duckduckgo.com/html") {
