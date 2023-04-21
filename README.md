@@ -1,3 +1,5 @@
+Due to personal reasons I have decided to stop working on this project. Feel free to fork it or use DarkReader.
+
 # DuckDuckGo-DeepDark
 
 ![alt tag](./Images/banner.png)
