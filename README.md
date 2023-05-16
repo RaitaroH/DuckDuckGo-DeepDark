@@ -1,4 +1,4 @@
-Due to personal reasons I have decided to stop working on this project. Feel free to fork it or use DarkReader.
+Due to personal reasons I may work on this infrequently. Feel free to fork it or use DarkReader.
 
 # DuckDuckGo-DeepDark
 
