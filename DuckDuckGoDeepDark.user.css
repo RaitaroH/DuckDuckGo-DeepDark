@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 2.0.6
+@version 2.0.7
 @updateURL https://github.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -359,6 +359,18 @@
 	{
 		scrollbar-color: var(--main-color) var(--main-background) !important;
 		scrollbar-width: thin !important;
+		/*for results urls*/
+		--theme-col-txt-url-domain: var(--main-color) !important;
+		--theme-col-txt-url-path: var(--main-color) !important;
+		/*results title*/
+		--theme-font-family-result-title: var(--main-text) !important;
+		/*results text*/
+		--theme-col-txt-snippet: var(--dimmer-text) !important;
+		/*buttons, like more results*/
+		--theme-col-bg-button-secondary: var(--second-background) !important;
+		--theme-col-bg-button-secondary-hover: var(--hover-background) !important;
+		--theme-col-txt-button-secondary: var(--main-text) !important;
+		
 	}
 	/*Scrollbar fix for chrome*/
 	*:not([hide-scrollbar]) ::-webkit-scrollbar-thumb
@@ -506,7 +518,8 @@
 	}
 
 	/*results domain*/
-	/*new style*/
+	/*style v2 - 2023 - themed using vars*/
+	/*style v1*/
 	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls #links .result__url__full,
 	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls #links .result__url__full:active,
 	.is-link-breadcrumb-exp.full-urls.breadcrumb-urls #links .result__url__full:visited:focus,
@@ -519,7 +532,7 @@
 	{
 		color: var(--dimmer-text) !important;
 	}
-	/*old style*/
+	/*style v0*/
 	.is-link-style-exp .result__url,
 	.is-link-style-exp .result__url:visited,
 	.is-link-style-exp .result__url:active,
@@ -1630,6 +1643,17 @@
 		border-bottom-color: var(--hover-background) !important;
 	}
 
+	/*word definition*/
+	.ia-module--definitions .module--definitions__attribution .module--definitions__attribution-text
+	{
+		color: var(--dimmer-text) !important;
+	}
+	/*numbers*/
+	.ia-module--definitions .module--definitions__group ol li::before, .ia-module--definitions .module--definitions__collapsed-group ol li::before
+	{
+		color: var(--main-text) !important;
+	}
+
 	/*stock market*/
 	.ia-module--stocks .stocks-module__exchange,
 	.ia-module--stocks .stocks-module__latestUpdate,
@@ -1725,6 +1749,11 @@
 	{
 		border-color: var(--hover-background) !important;
 		background-color: transparent !important;
+	}
+	/*search related to query*/
+	.is-related-search-exp .related-searches__title-long, .is-related-search-exp .related-searches__title-short
+	{
+		color: var(--main-text) !important;
 	}
 
 	/*Map*/
