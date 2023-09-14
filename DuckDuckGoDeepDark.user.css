@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 2.0.7
+@version 2.0.8
 @updateURL https://github.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -370,6 +370,19 @@
 		--theme-col-bg-button-secondary: var(--second-background) !important;
 		--theme-col-bg-button-secondary-hover: var(--hover-background) !important;
 		--theme-col-txt-button-secondary: var(--main-text) !important;
+
+		--theme-col-txt-msg: var(--dimmer-text) !important;
+
+		--theme-col-page-separator: var(--hover-background) !important;
+
+		/*cards*/
+		--sds-color-text-link-01: var(--main-color) !important;
+		--theme-col-about-link: var(--main-color) !important;
+		--theme-col-txt-card-title: var(--main-text) !important;
+		--sds-color-text-02: var(--dimmer-text) !important;
+		--sds-color-text-04: var(--dimmer-text) !important;
+		--theme-col-bg-expandcollapse: var(--hover-background) !important;
+		--theme-col-border-expandcollapse: var(--hover-background) !important;
 		
 	}
 	/*Scrollbar fix for chrome*/
@@ -1732,6 +1745,17 @@
 	{
 		color: var(--main-color) !important;
 	}
+	/*result card*/
+	a.JhFQAeU7IMxZaS7jCOQm.Bl3t3iYRHX9BeMH_V52u
+	{
+		color: var(--main-color) !important;
+		opacity: 0.9;
+	}
+	a.JhFQAeU7IMxZaS7jCOQm.Bl3t3iYRHX9BeMH_V52u:hover
+	{
+		opacity: 1 !important;
+	}
+
 	/*More News*/
 	.is-vertical-tabs-exp .module.module--carousel .module__footer,
 	.is-vertical-tabs-exp .is-mobile .module--carousel.module--images .module__footer,
