@@ -2,7 +2,7 @@
 @name DuckDuckGo DeepDark
 @namespace github.com/RaitaroH/DuckDuckGo-DeepDark
 @homepageURL https://github.com/RaitaroH/DuckDuckGo-DeepDark
-@version 2.0.8
+@version 2.0.9
 @updateURL https://github.com/RaitaroH/DuckDuckGo-DeepDark/raw/master/DuckDuckGoDeepDark.user.css
 @description Light will blind you in your search for answers, dark will make them shine. May the dark be kinder on thine eyes. (DuckDuckGo dark theme)
 @author RaitaroH
@@ -1657,9 +1657,20 @@
 	}
 
 	/*word definition*/
-	.ia-module--definitions .module--definitions__attribution .module--definitions__attribution-text
+	.ia-module--definitions .module--definitions__attribution .module--definitions__attribution-text,
+	.ia-module--definitions .module__title .module--definitions__pronunciation,
+	.ia-module--definitions .module__attribution
 	{
 		color: var(--dimmer-text) !important;
+	}
+	/*definitions*/
+	.ia-module--definitions .module--definitions__usage
+	{
+		color: var(--dimmer-text) !important;
+	}
+	.ia-module--definitions .module__audio .play-btn__icn_hollow
+	{
+		fill: var(--main-color) !important;
 	}
 	/*numbers*/
 	.ia-module--definitions .module--definitions__group ol li::before, .ia-module--definitions .module--definitions__collapsed-group ol li::before
