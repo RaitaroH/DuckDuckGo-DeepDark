@@ -359,6 +359,7 @@
 	{
 		scrollbar-color: var(--main-color) var(--main-background) !important;
 		scrollbar-width: thin !important;
+		--theme-bg-home: var(--main-background) !important;
 		/*for results urls*/
 		--theme-col-txt-url-domain: var(--main-color) !important;
 		--theme-col-txt-url-path: var(--main-color) !important;
@@ -371,10 +372,22 @@
 		--theme-col-bg-button-secondary: var(--second-background) !important;
 		--theme-col-bg-button-secondary-hover: var(--hover-background) !important;
 		--theme-col-txt-button-secondary: var(--main-text) !important;
+		--theme-button-primary-bg--hover: var(--main-color) !important;
+		--theme-button-primary-bg: var(--main-color) !important;
+		--theme-button-primary-outline-bg--hover: var(--main-color) !important;
+		--theme-button-primary-outline-bg: var(--main-color) !important;
 
 		--theme-col-txt-msg: var(--dimmer-text) !important;
 
 		--theme-col-page-separator: var(--hover-background) !important;
+
+		--sds-color-text-03: var(--dimmer-text) !important;
+		--sds-color-text-accent-01: var(--main-color) !important;
+		--sds-color-background-accent-01: var(--main-color) !important;
+
+		/*sidebar*/
+		--theme-sidemenu-bg: var(--hover-background) !important;
+		--theme-sidemenu-title: var(--main-text) !important;
 
 		/*cards*/
 		--sds-color-text-link-01: var(--main-color) !important;
@@ -384,6 +397,13 @@
 		--sds-color-text-04: var(--dimmer-text) !important;
 		--theme-col-bg-expandcollapse: var(--hover-background) !important;
 		--theme-col-border-expandcollapse: var(--hover-background) !important;
+		--theme-bg-cta-cards: var(--hover-background) !important;
+		--theme-text-bg: var(--main-text) !important;
+
+		--theme-howitworks-downloads-bg: var(--hover-background) !important;
+		--theme-howitworks-section-title: var(--main-color) !important;
+
+		--theme-accordion-background--expanded: var(--hover-background) !important;
 		
 	}
 	/*Scrollbar fix for chrome*/
@@ -447,6 +467,18 @@
 	}
 
 	/*Homepage*/
+	/*burger*/
+	.header_menuButton__xpZxu
+	{
+		color: var(--main-text) !important;
+	}
+	/*searchbar*/
+	.searchbox_combobox__V4gS9.searchbox_isHomepage__C57Qt
+	{
+    --theme-bg-home-searchbox: var(--second-background) !important;
+    --theme-border-color-home-searchbox: var(--hover-background) !important;
+    box-shadow: var(--shadow) !important;
+	}
 	/*below searchbar*/
 	.is-atb-fullbleed .content-info__title
 	{
@@ -454,22 +486,17 @@
 		color: var(--dimmer-text) !important;
 	}
 	/*info cards*/
-	.is-atb-fullbleed .content-info__item
-	{
-		background-color: var(--hover-background) !important;
-		border-color: var(--hover-background) !important;
-	}
-	.is-atb-fullbleed .content-info__item__title
+	.cta-cards_button___d1sm
 	{
 		color: var(--main-text) !important;
 	}
-	.is-atb-fullbleed .content-info__item__subtitle
+	.cta-cards_button___d1sm:hover
 	{
-		color: var(--dimmer-text) !important;
+		color: var(--main-text) !important;
 	}
-	.is-atb-fullbleed .content-info__item__link
+	.cta-cards_setAsDefaultButton__Nq3T4.cta-cards_tertiary__CI2dm
 	{
-		color: var(--main-color) !important;
+		border-color: var(--main-color) !important;
 	}
 	/*FAQ*/
 	.faq__section
@@ -484,7 +511,10 @@
 	{
 		color: var(--dimmer-text) !important;
 	}
-
+	.accordion_accordionItem__im5rc
+	{
+		background-color: var(--second-background) !important;
+	}
 
 	/* Error: search too long */
 	#error_homepage
@@ -529,6 +559,16 @@
 	.result__url__domain:hover,.module__title,.result__a:hover
 	{
 		color: var(--main-color) !important;
+	}
+
+	/*result options and filters*/
+	/*strange fading borders*/
+	.DrcPyihFGyKMlg6lpwsa::before, .XvPRmQVeIoCP5lQhICTv.ofDl_1VxUG_EKc3b9E3x::before,
+	.RHsWhMlxc4ETEMDS9ltw::before,
+	.nYs5EPJFwdhisN0E7MCB .wAo0g6uUc98EWmmASZLv::after, /* for first result*/
+	.RHsWhMlxc4ETEMDS9ltw::after
+	{
+		background-image: none !important;
 	}
 
 	/*results domain*/
