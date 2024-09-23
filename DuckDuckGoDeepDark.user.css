@@ -404,7 +404,17 @@
 		--theme-howitworks-section-title: var(--main-color) !important;
 
 		--theme-accordion-background--expanded: var(--hover-background) !important;
-		
+
+    /*chat*/
+    --theme-dc-color-layer0: var(--main-background) !important;
+    --theme-dc-color-layer2: var(--hover-background) !important; /*cards*/
+    --theme-col-bg-button-primary: var(--main-color) !important;
+    --theme-col-bg-button-primary-hover: var(--main-color) !important;
+    --sds-color-border-accent-01: var(--main-color) !important;
+    --sds-color-background-01: var(--hover-background) !important; /*policy*/
+    --theme-dc-color-layer1: var(--second-background) !important; /*sidebar*/
+    --theme-col-txt-button-primary-disabled: var(--dimmer-text) !important;
+    --theme-dc-color-container-message: var(--hover-background) !important;
 	}
 	/*Scrollbar fix for chrome*/
 	*:not([hide-scrollbar]) ::-webkit-scrollbar-thumb
