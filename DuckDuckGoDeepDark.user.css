@@ -376,6 +376,13 @@
 		--theme-button-primary-bg: var(--main-color) !important;
 		--theme-button-primary-outline-bg--hover: var(--main-color) !important;
 		--theme-button-primary-outline-bg: var(--main-color) !important;
+		--theme-col-txt-button-secondary: var(--main-text);
+		--theme-col-txt-button-tertiary: var(--dimmer-text);
+		--sds-color-background-01: var(--main-background);
+		--sds-color-background-02: var(--second-background); /*share feedback*/
+		--sds-color-background-03: var(--hover-background);
+
+		--theme-searchbox-bg--focused: var(--hover-background);
 
 		--theme-col-txt-msg: var(--dimmer-text) !important;
 
@@ -384,6 +391,13 @@
 		--sds-color-text-03: var(--dimmer-text) !important;
 		--sds-color-text-accent-01: var(--main-color) !important;
 		--sds-color-background-accent-01: var(--main-color) !important;
+
+		--theme-col-txt-card-subtitle: var(--main-text);
+		--sds-color-text-disabled: var(--dimmer-text);
+		--sds-color-text-01: var(--main-text);
+
+		--calendar-highlight-bg: var(--main-color);
+		--calendar-icons: var(--dimmer-text);
 
 		/*sidebar*/
 		--theme-sidemenu-bg: var(--hover-background) !important;
@@ -405,16 +419,27 @@
 
 		--theme-accordion-background--expanded: var(--hover-background) !important;
 
-    /*chat*/
-    --theme-dc-color-layer0: var(--main-background) !important;
-    --theme-dc-color-layer2: var(--hover-background) !important; /*cards*/
-    --theme-col-bg-button-primary: var(--main-color) !important;
-    --theme-col-bg-button-primary-hover: var(--main-color) !important;
-    --sds-color-border-accent-01: var(--main-color) !important;
-    --sds-color-background-01: var(--hover-background) !important; /*policy*/
-    --theme-dc-color-layer1: var(--second-background) !important; /*sidebar*/
-    --theme-col-txt-button-primary-disabled: var(--dimmer-text) !important;
-    --theme-dc-color-container-message: var(--hover-background) !important;
+		--theme-col-wikinlp-txt-label: var(--main-color) !important; /*beta*/
+		--theme-col-wikinlp-bg-chat-system: var(--hover-background) !important; /*DuckAssist answer*/
+		--theme-col-txt-button-ghost: var(--main-color) !important;
+		--theme-col-wikinlp-txt-learn-more: var(--main-text) !important;
+		--sds-color-background-support-accent-state-01: transparent;
+
+		/*chat*/
+		--theme-dc-color-layer0: var(--main-background) !important;
+		--theme-dc-color-layer2: var(--hover-background) !important; /*cards*/
+		--theme-col-bg-button-primary: var(--main-color) !important;
+		--theme-col-bg-button-primary-hover: var(--main-color) !important;
+		--sds-color-border-accent-01: var(--main-color) !important;
+		--sds-color-background-01: var(--hover-background) !important; /*policy*/
+		--theme-dc-color-layer1: var(--second-background) !important; /*sidebar*/
+		--theme-col-txt-button-primary-disabled: var(--dimmer-text) !important;
+		--theme-dc-color-container-message: var(--hover-background) !important;
+		--theme-dc-recent-chats-list-item-bg: var(--hover-background) !important; /*selected chat card*/
+		--theme-dc-color-gpt-main: var(--main-color) !important; /*round icon*/
+		--sds-color-background-container-02: var(--hover-background) !important; /*chat card hover*/
+		--theme-dc-anchor-color: var(--main-text) !important; /*model color*/
+		--theme-dc-color-anchor-sleep: var(--main-text) !important; /*model icon*/
 	}
 	/*Scrollbar fix for chrome*/
 	*:not([hide-scrollbar]) ::-webkit-scrollbar-thumb
@@ -665,7 +690,7 @@
 		display: none!important;
 	}
 
-	body,.body--home,.site-wrapper,.modal__box,.sitelinks_td
+	body,.body--home,.site-wrapper,.modal__box,.sitelinks_td, html
 	{
 		background-color: var(--main-background) !important;
 	}
@@ -1374,6 +1399,14 @@
 		color: var(--second-background) !important;
 	}
 
+	.module--carousel .module__footer-carousel:hover .module__footer-carousel__label,
+	.module--carousel .module__footer-carousel__label
+	{
+		background-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+		border: none !important;
+	}
+
 	/*Some stuff in searches and such*/
 	.about-info-box__info-label
 	{
@@ -2046,6 +2079,12 @@
 	.z6AMZrqgrYpEtHiAFWfx
 	{
 		color: var(--dimmer-text) !important;
+	}
+
+	/*settings on search page*/
+	button.Pd_jmhkZzftl0UtTaw0u > svg:nth-child(1)
+	{
+		color: transparent !important;
 	}
 }
 @-moz-document url-prefix("https://duckduckgo.com/html") {
