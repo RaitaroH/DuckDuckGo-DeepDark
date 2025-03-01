@@ -368,6 +368,8 @@
 		/*results text*/
 		--theme-col-txt-snippet: var(--dimmer-text) !important;
 		--sds-color-text-01: var(--dimmer-text) !important;
+		/*clicked results*/
+		--theme-col-bg-ui: var(--second-background) !important;
 		/*buttons, like more results*/
 		--theme-col-bg-button-secondary: var(--second-background) !important;
 		--theme-col-bg-button-secondary-hover: var(--hover-background) !important;
